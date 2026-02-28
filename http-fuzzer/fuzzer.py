@@ -10,7 +10,6 @@ init(autoreset=True)
 
 lock = threading.Lock()
 
-
 def load_payloads(wordlist_path):
     try:
         with open(wordlist_path, 'r', encoding="utf-8") as file:
@@ -161,7 +160,6 @@ proxies = build_proxies(args.proxy)
 
     if log_file:
         log_file.close()
-
 
 if name == "__main__":
     main()
