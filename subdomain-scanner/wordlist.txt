@@ -1,0 +1,13 @@
+# common subdomains
+www
+admin
+dev
+test
+api
+stage
+beta
+mail
+vpn
+internal
+portal
+dashboard
